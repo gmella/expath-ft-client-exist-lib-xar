@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>ft-client</artifactId>
-	<version>1.1.4</version>
+	<version>1.1.5</version>
 	<packaging>pom</packaging>
 	<url>http://kuberam.ro/specs/expath/ft-client/ft-client.html</url>
 
@@ -20,7 +20,7 @@
 
 	<properties>
 		<package-title>EXPath File Transfer Client Module Implementation</package-title>
-		<package-name>http://expath.org/lib/${project.artifactId}</package-name>
+		<package-name>http://expath.org/ns/${project.artifactId}</package-name>
 		<package-abbrev>expath-${project.artifactId}-exist-lib</package-abbrev>
 		<package-type>application</package-type>
 		<package-final-name>expath-${project.artifactId}-exist-lib-${project.version}</package-final-name>
