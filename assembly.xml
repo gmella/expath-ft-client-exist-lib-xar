@@ -1,5 +1,5 @@
-<package xmlns="http://expath.org/ns/pkg" name="${package-name}" abbrev="${package-abbrev}" version="${project.version}"
-	spec="1.0">
+<package xmlns="http://expath.org/ns/pkg" name="${package-name}"
+	abbrev="${package-abbrev}" version="${project.version}" spec="1.0">
 	<title>${package-title}</title>
 	<author id="cteodorescu">Claudius Teodorescu</author>
 	<website>${project.url}</website>
@@ -31,4 +31,19 @@
 			<version>0.1.51</version>
 		</dependencySet>
 	</dependencySets>
+
+	<components>
+		<resource>
+			<public-uri>http://exist-db.org/xquery/jms</public-uri>
+			<file>urn:java:class:org.exist.jms.xquery.JmsModule</file>
+		</resource>
+		<resource>
+			<public-uri>http://exist-db.org/xquery/messaging</public-uri>
+			<file>urn:java:class:org.exist.jms.xquery.MessagingModule</file>
+		</resource>
+		<resource>
+			<public-uri>http://exist-db.org/xquery/replication</public-uri>
+			<file>urn:java:class:org.exist.jms.xquery.ReplicationModule</file>
+		</resource>
+	</components>
 </package>
