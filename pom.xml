@@ -3,7 +3,16 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
+<<<<<<< HEAD
 	<groupId>ro.kuberam.xars</groupId>
+=======
+	<parent>
+		<artifactId>base</artifactId>
+		<groupId>ro.kuberam.xars</groupId>
+		<version>0.0.4</version>
+	</parent>
+
+>>>>>>> branch 'master' of https://github.com/claudius108/expath-ft-client-exist-lib-xar.git
 	<artifactId>ft-client</artifactId>
 	<version>1.1.6</version>
 	<packaging>pom</packaging>
