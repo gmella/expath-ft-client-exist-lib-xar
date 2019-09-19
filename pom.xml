@@ -4,14 +4,11 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>ro.kuberam.xars</groupId>
-		<artifactId>base</artifactId>
-		<version>0.0.5</version>
-	</parent>
 
+        <groupId>org.expath.exist</groupId>
 	<artifactId>ft-client</artifactId>
-	<version>1.1.6</version>
+	<version>2.0.0</version>
+        <name>eXist XAR for EXPath File Transfer Client module</name>
 	<packaging>pom</packaging>
 	<url>http://kuberam.ro/specs/expath/ft-client/ft-client.html</url>
 
@@ -53,8 +50,8 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.expath.exist</groupId>
-			<artifactId>ft-client</artifactId>
-			<version>1.1.5</version>
+			<artifactId>exist-ft-client</artifactId>
+			<version>2.0.0</version>
 		</dependency>
 	</dependencies>
 
